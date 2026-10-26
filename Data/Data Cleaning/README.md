@@ -1,7 +1,6 @@
-
 الداتا عبارة عن 100000 صف و20 عمود والطلبات من سنة 2020 لحد 2024
 
- باستخدام Column Profiling راجعت كل الأعمدة ولقيت إن مفيش قيم فاضية ولا صفوف مكررة وكمان كل OrderID مختلف عن التاني ومعادلة TotalAmount سليمة
+اولا  باستخدام Column Profiling راجعت كل الأعمدة ولقيت إن مفيش قيم فاضية ولا صفوف مكررة وكمان كل OrderID مختلف عن التاني ومعادلة TotalAmount سليمة
 
 ثانيا ظبطت أنواع البيانات
 خليت OrderDate من نوع Date عشان نتعامل معاه كتاريخ وQuantity من نوع Whole Number عشان الكمية عدد صحيح
@@ -18,10 +17,9 @@
 
 وشيلت City وState لأن البيانات مش متوافقة ونفس المدينة ممكن تظهر في دول مختلفة
 
-
 عشان كده مش هحطها في Dim_Product وهخليها في ال Fact مع جدول Dim_Category منفصل
 
-رابعا ضفت 5 أعمدة محسوبة
+رابعا ضفت 4 أعمدة محسوبة
 
 أول عمود GrossAmount وده الكمية مضروبة في سعر الوحدة 
 
@@ -40,4 +38,5 @@
 
 وخطوة اضافية جبت ملف خارجى هو ال product mapping عشان يكون كل product فى ال category الخاص بيه  ، بدل ما كان فى product ليه كذا category
 
-الخطوة الجاية و هو ما يخص ال data modelingهنعمل Fact_Orders من غير ProductName وOrderDate وهنعمل 7 Dimensions وهم Product وCategory وCustomer وSeller وGeography وPayment وOrderStatus
+الخطوة الجاية هنعمل Fact_Orders من غير ProductName وOrderDate وهنعمل 7 Dimensions وهم Product وCategory وCustomer وSeller وGeography وPayment وOrderStatus
+
