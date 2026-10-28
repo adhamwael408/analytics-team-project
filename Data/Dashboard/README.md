@@ -210,7 +210,7 @@ Design principles:
 
 ## How to Open the Dashboard
 
-1. Download `Commerce_Compass.pbix`.
+1. Download `Final M Project.pbix`.
 2. Open it with **Power BI Desktop** (the latest version is recommended).
 3. Start on the Welcome page and use the page navigator to move between pages.
 4. Use the Year, Country, and Category filters to explore, and right-click a product to drill through to its details.
