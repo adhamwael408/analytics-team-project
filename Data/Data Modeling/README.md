@@ -1,4 +1,4 @@
-# E-Commerce Analytics: Data Model (Power BI)
+# Commerce Compass: Data Model (Power BI)
 
 This repository documents the data modeling layer of an E-Commerce
 analytics project built in Power BI. The model is designed as a Star
