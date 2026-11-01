@@ -6,11 +6,6 @@ An interactive **Power BI** sales analytics project that analyzes **100,000 e-co
 
 Developed for the **Digital Egypt Pioneers Initiative (DEPI)**.
 
-![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi&logoColor=black)
-![Power Query](https://img.shields.io/badge/Power%20Query-ETL-0E7C90)
-![DAX](https://img.shields.io/badge/DAX-Measures-2FD6F0)
-![Data Model](https://img.shields.io/badge/Data%20Model-Star%20Schema-071C2E)
-
 <!-- Add a dashboard screenshot here, e.g.:
 ![Commerce Compass Dashboard](images/executive-overview.png)
 -->
